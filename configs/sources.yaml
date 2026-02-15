@@ -1,0 +1,12 @@
+sources:
+  - name: uspstf_ab
+    type: pdf
+    path: data/raw/uspstf_ab.pdf
+
+  - name: cdc_maternal
+    type: html
+    path: data/raw/cdc_maternal.html
+
+  - name: test_doc 
+    type: text
+    path: data/raw/test_doc.txt

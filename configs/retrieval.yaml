@@ -1,0 +1,13 @@
+# Retrieval configuration for the RAG system.
+# Week 1: Only configuration scaffolding is required.
+# Week 2: Embedding + FAISS index will use these values.
+
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+index_type: faiss
+metric: cosine
+top_k: 5
+
+# Optional future parameters
+normalize_embeddings: true
+use_gpu: false
+

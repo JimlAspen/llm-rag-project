@@ -1,0 +1,23 @@
+[project]
+name = "llm-rag-project"
+version = "0.1.0"
+description = "Governed, evaluated RAG system for healthcare guidelines"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pydantic>=2.0",
+    "python-dotenv",
+    "requests",
+    "beautifulsoup4",
+    "pypdf",
+    "tiktoken",
+    "numpy",
+    "pandas",
+    "faiss-cpu",
+    "sentence-transformers",
+    "pyyaml",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
