@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# pytest
+.pytest_cache/
+
+# virtual environments
+venv/
+.venv/
+
+# environment variables
+.env
+
+# data directories (keep structure, ignore contents)
+data/raw/*
+data/processed/*
+data/chunks/*
+
+# logs
+logs/
+*.log
